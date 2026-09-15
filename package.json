@@ -4,6 +4,8 @@
   "description": "This is our first commit.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "run-ts": "tsc test.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/EarlOld/zhatft-mobile-demo/issues"
   },
-  "homepage": "https://github.com/EarlOld/zhatft-mobile-demo#readme"
+  "homepage": "https://github.com/EarlOld/zhatft-mobile-demo#readme",
+  "dependencies": {
+    "typescript": "^6.0.3"
+  }
 }
